@@ -1,0 +1,36 @@
+button {
+  border: 0;
+  padding: 4px 0 0 0;
+  background-color: transparent;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.mobile {
+  .preheader .preheader-wrapper .mineduc_logo {
+    left: 12px;
+  }
+
+  .acc {
+    position: absolute;
+    right: 80px;
+  }
+
+  .mainheader h1 {
+    font-size: 20px;
+    padding-bottom: 24px;
+  }
+}
+
+.desktop {
+  .mainheader .content-wrapper {
+    height: 100%;
+    background-image: url(./imgs/estudiante_1.png), url(./imgs/estudiante_2.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 10px, left 20px;
+    background-size: 100px, 100px;
+  }
+}

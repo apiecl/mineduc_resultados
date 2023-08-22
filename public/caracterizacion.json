@@ -1,0 +1,20 @@
+{
+  "title": "¿Quiénes participaron?",
+  "content": [
+    {
+      "text": "A través de las variables sociodemográficas de la base de datos, fue posible realizar una caracterización general de los participantes de este proceso participativo con comunidades educativas. El proceso de estudio cubrió una amplia gama de estamentos de la sociedad y comunidades educativas. En total, se involucraron 4.085 establecimientos y se procesaron 20.942 actas."
+    },
+    {
+      "title": "Tipos de administración",
+      "text": "En general, se evidencia que la mayor parte de los establecimientos participantes son de régimen Municipal y Particular Subvencionado"
+    },
+    {
+      "title": "Modalidad de enseñanza",
+      "text": "En cuanto a su modalidad, se reporta en su gran mayoría las categorías de Establecimiento Científico-Humanista y Educación Rural, pero por sobre todo la respuesta “Otro” que típicamente se usa en el caso de Jardín Infantil."
+    },
+    {
+      "title": "Regiones participantes",
+      "text": "En cuanto a su ubicación geográfica, en términos brutos predomina las Regiones Metropolitana, Valparaíso y Maule. No obstante, al normalizar (como se presenta a continuación) por cantidad de establecimientos en cada región, las regiones más representadas son Arica y Parinacota, Antofagasta y Atacama"
+    }
+  ]
+}

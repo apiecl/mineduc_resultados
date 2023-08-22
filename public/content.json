@@ -1,0 +1,116 @@
+{
+  "site_title": "Resultados Proceso de participación de la Política Nacional de Educación en Afectividad y Sexualidad Integral",
+  "site_intro": "Este sitio presenta los principales hallazgos del proceso de análisis de los procesos participativos en el marco del desarrollo de la Política Nacional de Educación en Afectividad y Sexualidad Integral. En este se integra la presentación y caracterización de las instancias de participación de comunidades educativas, a través de grupos de profesionales de la educación, asistentes, apoderados y estudiantes de los distintos ciclos del desarrollo. Esta participación fue realizada en el marco de las Jornadas Nacionales hacia una Educación No Sexista realizadas en coordinación con el Ministerio de la Mujer y Equidad de Género.",
+  "sections": [
+    {
+      "title": "Nivel Medio mayor, Nivel Transición, primero y segundo básico",
+      "url": "nivel-medio-mayor-nivel-transicion-primero-y-segundo-basico",
+      "value": 5086
+    },
+    {
+      "title": "3ro a 6to básico",
+      "url": "3ro-a-6to-basico",
+      "value": 3188
+    },
+    {
+      "title": "7mo básico a II medio",
+      "url": "7mo-basico-a-ii-medio",
+      "value": 2948
+    },
+    {
+      "title": "III, IV medio y nivel laboral educación especial",
+      "url": "iii-iv-medio-y-nivel-laboral-educacion-especial",
+      "value": 785
+    },
+    {
+      "title": "Directivos y docentes",
+      "url": "directivos-y-docentes",
+      "value": 1414
+    },
+    {
+      "title": "Asistentes de la educación, profesionales de convivencia escolar y PIE",
+      "url": "asistentes-de-la-educacion-profesionales-de-convivencia-escolar-y-pie",
+      "value": 840
+    },
+    {
+      "title": "Educadores/as de párvulos, técnicos/as en párvulos, equipo pedagógico educación especial",
+      "url": "educadores-as-de-parvulos-tecnicos-as-en-parvulos-equipo-pedagogico-educacion-especial",
+      "value": 1051
+    },
+    {
+      "title": "Madres, padres y apoderados",
+      "url": "madres-padres-y-apoderados",
+      "value": 2421
+    }
+  ],
+  "sectionscontent": {
+    "caracterizacion": {
+      "title": "¿Quiénes participaron?",
+      "content": [
+        {
+          "text": "A través de las variables sociodemográficas de la base de datos, fue posible realizar una caracterización general de los participantes de este proceso participativo con comunidades educativas. El proceso de estudio cubrió una amplia gama de estamentos de la sociedad y comunidades educativas. En total, se involucraron 4.085 establecimientos y se procesaron 20.942 actas.",
+          "blocks": [
+            {
+              "title": "Establecimientos educacionales",
+              "number": 4085,
+              "subtitle": "participantes"
+            },
+            {
+              "title": "Actas procesadas",
+              "number": 20942,
+              "subtitle": "de jornadas participantes"
+            }
+          ]
+        },
+        {
+          "title": "Tipos de administración",
+          "text": "En general, se evidencia que la mayor parte de los establecimientos participantes son de régimen Municipal y Particular Subvencionado"
+        },
+        {
+          "title": "Modalidad de enseñanza",
+          "text": "En cuanto a su modalidad, se reporta en su gran mayoría las categorías de Establecimiento Científico-Humanista y Educación Rural, pero por sobre todo la respuesta “Otro” que típicamente se usa en el caso de Jardín Infantil."
+        },
+        {
+          "title": "Regiones participantes",
+          "text": "En cuanto a su ubicación geográfica, en términos brutos predomina las Regiones Metropolitana, Valparaíso y Maule. No obstante, al normalizar (como se presenta a continuación) por cantidad de establecimientos en cada región, las regiones más representadas son Arica y Parinacota, Antofagasta y Atacama"
+        }
+      ]
+    },
+    "nivel-medio-mayor-nivel-transicion-primero-y-segundo-basico": {
+      "title": "NM mayor, NT, primero y segundo básico",
+      "intro": "A continuación se presentan los resultados para el grupo Nivel medio mayor, nivel transición, primero y segundo, que contiene 5.086 actas procesadas. A este grupo se le hicieron dos preguntas y luego una tercera referida a otros temas.",
+      "preguntas": [
+        {
+          "title": "¿Con qué cosas te gusta jugar y qué juegos son tus favoritos?",
+          "content": "En general ideas de muñecas domina la respuestas de niñas, y en menor medida otras respuestas como bicicleta, autos, saltar la cuerda y juegos de mesa. En el caso de niños, las respuestas se orientan claramente a aspectos más deportivos, incluyendo autos, fútbol y bicicleta."
+        },
+        {
+          "title": "Crees tú que hay juguetes distintos para niñas y para niños? ¿Por qué?",
+          "content": "Los n-gramas muestran que sobre todo en el caso del grupo masculino, la opinión es que los juguetes deben ser distintos, mientras que en la nube de palabras del grupo femenino, aparecen juegos asociados a lo masculino."
+        }
+      ],
+      "otros-temas": [
+        "Esta pregunta es abierta, sin un tema específico. A continuación se presentan frases ejemplos para los objetos más frecuentes.",
+        "Los niños de este estamento consideran que todos son iguales, y que se debe respetar los gustos de cada persona. Consideran positivo que sus opiniones sean importantes."
+      ]
+    },
+    "3ro-a-6to-basico": {
+      "title": "3ro a 6to básico",
+      "intro": "A continuación se presentan los resultados para el grupo entre tercero y sexto básico, que contiene 3.188 actas procesadas.",
+      "preguntas": [
+        {
+          "title": "¿Qué ventajas tiene ser niño o niña en mi escuela?",
+          "content": "En el caso de niñas, el principal atributo destacado es actitudinal en la idea de “más ordenadas”, como también la idea de más tranquilas. Luego, es de apariencia con la idea de pelo largo. Interesantemente también se aprecian comparaciones con los niños, en cuanto se percibe que ellos “ocupan la cancha”. En ese sentido, hay un elemento de injusticia en el uso de espacio, al menos en apariencia. En el caso de niños, las ventajas percibidas son principalmente físicas, en términos de velocidad y fuerza. En consistencia con la queja de las niñas, se lista como ventaja el jugar fútbol."
+        },
+        {
+          "title": "¿Cómo me gustaría que se tratara a niños y niñas en mi escuela?",
+          "content": "Los n-gramas muestran la expresión de un deseo de trato con más respeto y con igualdad en la escuela que es transversal al género. En ambos casos, también resulta interesante la solicitud de trato cariñoso."
+        }
+      ],
+      "otros_temas": [
+        "Esta pregunta es abierta, sin un tema específico. A continuación se presentan frases ejemplos para los objetos más frecuentes.",
+        "Los niños de este estamento consideran que todos son iguales, y que se debe respetar los gustos de cada persona. Consideran positivo que sus opiniones sean importantes y que las puedas expresar"
+      ]
+    }
+  }
+}

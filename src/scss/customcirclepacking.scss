@@ -1,0 +1,150 @@
+$parent_circle_diameter: calc(100vh - 24px);
+
+.desktop {
+  .parent-circle {
+    height: $parent_circle_diameter;
+    width: $parent_circle_diameter;
+    min-width: 720px;
+    min-height: 720px;
+    margin: 36px 12px 12px 12px;
+    padding: 12px;
+    border-radius: 50%;
+    position: relative;
+  }
+
+  .circle {
+    position: absolute;
+    &.circle-nivel {
+      bottom: 10%;
+      right: 6%;
+    }
+    &.circle-3ro {
+      top: 25%;
+      right: 37%;
+    }
+    &.circle-7mo {
+      top: 10%;
+      right: 13%;
+    }
+    &.circle-madres {
+      top: 0;
+      right: 33%;
+    }
+    &.circle-educadoresas {
+      right: 71%;
+      top: 16%;
+    }
+    &.circle-asistentes {
+      right: 83%;
+      top: 40%;
+    }
+    &.circle-directivos {
+      right: 52%;
+      bottom: 10%;
+    }
+    &.circle-iii {
+      right: 70%;
+      bottom: 30%;
+    }
+  }
+}
+
+.mobile {
+  .parent-circle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+    background-color: var(--main-background);
+  }
+
+  .circle {
+    margin: 36px 0;
+  }
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .circle-info {
+    text-align: center;
+    position: absolute;
+    font-size: 14px;
+    color: #000;
+    line-height: 1.1em;
+    min-width: 200px;
+    p:first-of-type {
+      margin-bottom: 6px;
+      text-decoration: underline;
+    }
+  }
+  &::before {
+    width: 80%;
+    height: 80%;
+    min-width: 120px;
+    min-height: 120px;
+    border-radius: 50%;
+    content: "";
+    font-size: 14px;
+    background-color: var(--background);
+    display: block;
+  }
+
+  &.circle-nivel {
+    &::before {
+      background-color: var(--lightpurple);
+    }
+  }
+  &.circle-3ro {
+    &::before {
+      background-color: var(--lightpurple);
+    }
+  }
+  &.circle-7mo {
+    &::before {
+      background-color: var(--lightpurple);
+    }
+  }
+  &.circle-madres {
+    &::before {
+      background-color: var(--lightyellow);
+    }
+  }
+  &.circle-educadoresas {
+    &::before {
+      background-color: var(--aquamarine);
+    }
+  }
+  &.circle-asistentes {
+    &::before {
+      background-color: var(--lightblue);
+    }
+  }
+  &.circle-directivos {
+    &::before {
+      background-color: var(--green);
+    }
+  }
+  &.circle-iii {
+    &::before {
+      background-color: var(--lightpurple);
+    }
+  }
+}
+
+.desktop .parent-circle {
+  background-color: var(--background-A);
+}
+
+html.mineduc-dark {
+  .parent-circle {
+    .circle {
+      text-shadow: 1px 1px 1px #fff;
+    }
+  }
+}
+
+.circle-link {
+  color: #333;
+}

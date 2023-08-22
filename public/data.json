@@ -1,0 +1,139 @@
+{
+  "home": {
+    "name": "main",
+    "color": "red",
+    "children": [
+      {
+        "name": "Directivos y docentes",
+        "value": 1414,
+        "color": "hsl(76,64%,68%)"
+      },
+      {
+        "name": "Asistentes de la educación,\nprofesionales de convivencia escolar y\nPIE",
+        "value": 840
+      },
+      {
+        "name": "Educadores/as de párvulos, técnicos/as\nen párvulos, equipo pedagógico\neducación especial",
+        "value": 1051
+      },
+      {
+        "name": "Madres, padres y apoderados",
+        "value": 2421
+      },
+      {
+        "name": "NM mayor, NT, primero y segundo\nbásico",
+        "value": 5086
+      },
+      {
+        "name": "3ro a 6to básico",
+        "value": 3188
+      },
+      {
+        "name": "7mo básico a II medio",
+        "value": 2948
+      },
+      {
+        "name": "III, IV medio y nivel laboral educación\nespecial",
+        "value": 785
+      }
+    ]
+  },
+  "tipos_administracion": {
+    "name": "Tipos de administración",
+    "children": [
+      {
+        "name": "Municipal",
+        "loc": 1471,
+        "color": "#ff0000"
+      },
+      {
+        "name": "Particular Subvencionado",
+        "loc": 924,
+        "color": "#ff0000"
+      },
+      {
+        "name": "Jardín Infantil de administración directa Integra",
+        "loc": 725,
+        "color": "#ff0000"
+      },
+      {
+        "name": "Jardín Infantil de administración directa JUNJI",
+        "loc": 327,
+        "color": "#ff0000"
+      },
+      {
+        "name": "Servicio Local de Educación",
+        "loc": 282,
+        "color": "#ff0000"
+      },
+      {
+        "name": "Jardín Infantil administración delegada o transferencia de fondos (VTF) Municipales",
+        "loc": 90,
+        "color": "#ff0000"
+      },
+      {
+        "name": "Jardín Infantil vía transferencia de fondo (VTF) de Servicios Locales de Educación",
+        "loc": 57,
+        "color": "#ff0000"
+      },
+      {
+        "name": "Particular Pagado",
+        "loc": 44,
+        "color": "#ff0000"
+      },
+      {
+        "name": "Administración delegada",
+        "loc": 39,
+        "color": "#ff0000"
+      },
+      {
+        "name": "Jardín Infantil administración delegada o transferencia de fondos (VTF) privados",
+        "loc": 23,
+        "color": "#ff0000"
+      },
+      {
+        "name": "Otro",
+        "loc": 22,
+        "color": "#ff0000"
+      }
+    ]
+  },
+  "preguntas": {
+    "3ro-a-6to-basico": {
+      "femenino": [
+        ["más ordenadas", "91"],
+        ["pelo largo", "86"],
+        ["ocupan la cancha", "73"],
+        ["educación física", "72"],
+        ["jugar futbol", "68"],
+        ["jugar fútbol", "59"],
+        ["más tranquilas", "58"],
+        ["usar falda", "57"],
+        ["más rápido", "57"],
+        ["tener el pelo", "55"],
+        ["más grandes", "52"],
+        ["tiene ventajas", "49"],
+        ["usar la cancha", "48"],
+        ["más delicadas", "44"],
+        ["saltar la cuerda", "42"]
+      ],
+      "masculino": [
+        ["jugar fútbol", "200"],
+        ["más fuertes", "117"],
+        ["más rápido", "109"],
+        ["educación física", "71"],
+        ["más grandes", "56"],
+        ["más rápidos", "51"],
+        ["más fácil", "50"],
+        ["pelo largo", "46"],
+        ["tener el pelo", "45"],
+        ["pelo corto", "40"],
+        ["ocupar la cancha", "39"],
+        ["patio justo", "39"],
+        ["más inteligentes", "37"],
+        ["hacer amigos", "37"],
+        ["más bruscos", "36"]
+      ]
+    }
+  }
+}

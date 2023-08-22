@@ -1,0 +1,91 @@
+@media screen and (min-width: $desktop) {
+  .mainmenu {
+    display: flex;
+    justify-content: flex-end;
+    gap: 24px;
+    align-items: center;
+    ul {
+      display: flex;
+      gap: 24px;
+      li {
+        a {
+          width: 320px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: ($desktop - 1px)) {
+  .menu_icon img {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 40px;
+    height: 30px;
+    object-fit: contain;
+  }
+
+  .mobile-menu-wrapper {
+    text-align: left;
+    background-color: $background;
+    color: $blue;
+    margin-top: 54px;
+    ul {
+      li {
+        text-align: left;
+        border-bottom: 1px solid $blue;
+      }
+    }
+  }
+}
+
+.menu {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    a,
+    &.section-menu-item {
+      text-decoration: none;
+      width: 100%;
+      display: inline-block;
+
+      padding: 15px 12px;
+      color: $blue;
+      &:hover {
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+.menu > li > ul {
+  //display: none;
+  max-width: 320px;
+  z-index: 1000;
+  background-color: $background;
+  border: 1px solid $blue;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  display: block;
+  li {
+    list-style: none;
+    a {
+      display: block;
+      border-bottom: 1px solid $blue;
+      text-decoration: none;
+      color: $blue;
+      display: block;
+      padding: 12px;
+    }
+    &:last-child a {
+      border-bottom: 0;
+    }
+  }
+}

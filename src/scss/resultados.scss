@@ -1,0 +1,61 @@
+//Colors by slug
+.content-wrapper {
+  &.est-nivel-medio-mayor-nivel-transicion-primero-y-segundo-basico,
+  &.est-3ro-a-6to-basico,
+  &.est-7mo-basico-a-ii-medio
+    &.est-iii-iv-medio-y-nivel-laboral-educacion-especial {
+    h2 {
+      background-color: var(--lightpurple);
+    }
+  }
+  &.est-directivos-y-docentes {
+    h2 {
+      background-color: var(--green);
+    }
+  }
+  &.est-asistentes-de-la-educacion-profesionales-de-convivencia-escolar-y-pie {
+    h2 {
+      background-color: var(--lightblue);
+    }
+  }
+  &.est-educadores-as-de-parvulos-tecnicos-as-en-parvulos-equipo-pedagogico-educacion-especial {
+    h2 {
+      background-color: var(--aquamarine);
+    }
+  }
+  &.est-madres-padres-y-apoderados {
+    h2 {
+      background-color: var(--lightyellow);
+    }
+  }
+}
+
+.resultados-wrapper {
+  max-width: 830px;
+  background-color: var(--main-background);
+  margin: 0 auto;
+  padding: 48px 24px 24px 24px;
+  h2 {
+    text-align: center;
+    padding: 12px;
+    margin: 0 -24px 24px -24px;
+  }
+
+  h4 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 24px;
+    &:before {
+      display: block;
+      text-align: center;
+      content: "Pregunta" " " attr(data-index);
+      font-weight: 400;
+      font-size: 20px;
+    }
+  }
+
+  .pregunta {
+    margin: 36px 0;
+  }
+}
