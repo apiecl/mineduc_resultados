@@ -98,42 +98,82 @@
       }
     ]
   },
-  "preguntas": {
-    "3ro-a-6to-basico": {
-      "femenino": [
-        ["más ordenadas", "91"],
-        ["pelo largo", "86"],
-        ["ocupan la cancha", "73"],
-        ["educación física", "72"],
-        ["jugar futbol", "68"],
-        ["jugar fútbol", "59"],
-        ["más tranquilas", "58"],
-        ["usar falda", "57"],
-        ["más rápido", "57"],
-        ["tener el pelo", "55"],
-        ["más grandes", "52"],
-        ["tiene ventajas", "49"],
-        ["usar la cancha", "48"],
-        ["más delicadas", "44"],
-        ["saltar la cuerda", "42"]
-      ],
-      "masculino": [
-        ["jugar fútbol", "200"],
-        ["más fuertes", "117"],
-        ["más rápido", "109"],
-        ["educación física", "71"],
-        ["más grandes", "56"],
-        ["más rápidos", "51"],
-        ["más fácil", "50"],
-        ["pelo largo", "46"],
-        ["tener el pelo", "45"],
-        ["pelo corto", "40"],
-        ["ocupar la cancha", "39"],
-        ["patio justo", "39"],
-        ["más inteligentes", "37"],
-        ["hacer amigos", "37"],
-        ["más bruscos", "36"]
-      ]
+  "preguntas": [
+    {
+      "3ro-a-6to-basico": {
+        "femenino": [
+          ["más ordenadas", "91"],
+          ["pelo largo", "86"],
+          ["ocupan la cancha", "73"],
+          ["educación física", "72"],
+          ["jugar futbol", "68"],
+          ["jugar fútbol", "59"],
+          ["más tranquilas", "58"],
+          ["usar falda", "57"],
+          ["más rápido", "57"],
+          ["tener el pelo", "55"],
+          ["más grandes", "52"],
+          ["tiene ventajas", "49"],
+          ["usar la cancha", "48"],
+          ["más delicadas", "44"],
+          ["saltar la cuerda", "42"]
+        ],
+        "masculino": [
+          ["jugar fútbol", "200"],
+          ["más fuertes", "117"],
+          ["más rápido", "109"],
+          ["educación física", "71"],
+          ["más grandes", "56"],
+          ["más rápidos", "51"],
+          ["más fácil", "50"],
+          ["pelo largo", "46"],
+          ["tener el pelo", "45"],
+          ["pelo corto", "40"],
+          ["ocupar la cancha", "39"],
+          ["patio justo", "39"],
+          ["más inteligentes", "37"],
+          ["hacer amigos", "37"],
+          ["más bruscos", "36"]
+        ]
+      }
+    },
+    {
+      "3ro-a-6to-basico": {
+        "femenino": [
+          ["más ordenadas", "91"],
+          ["pelo largo", "86"],
+          ["ocupan la cancha", "73"],
+          ["educación física", "72"],
+          ["jugar futbol", "68"],
+          ["jugar fútbol", "59"],
+          ["más tranquilas", "58"],
+          ["usar falda", "57"],
+          ["más rápido", "57"],
+          ["tener el pelo", "55"],
+          ["más grandes", "52"],
+          ["tiene ventajas", "49"],
+          ["usar la cancha", "48"],
+          ["más delicadas", "44"],
+          ["saltar la cuerda", "42"]
+        ],
+        "masculino": [
+          ["jugar fútbol", "200"],
+          ["más fuertes", "117"],
+          ["más rápido", "109"],
+          ["educación física", "71"],
+          ["más grandes", "56"],
+          ["más rápidos", "51"],
+          ["más fácil", "50"],
+          ["pelo largo", "46"],
+          ["tener el pelo", "45"],
+          ["pelo corto", "40"],
+          ["ocupar la cancha", "39"],
+          ["patio justo", "39"],
+          ["más inteligentes", "37"],
+          ["hacer amigos", "37"],
+          ["más bruscos", "36"]
+        ]
+      }
     }
-  }
+  ]
 }

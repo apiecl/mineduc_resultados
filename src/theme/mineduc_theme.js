@@ -5,5 +5,5 @@ export const getColors = (darkTheme) => {
 };
 
 export const mineducNivoTheme = {
-  fontSize: 16,
+  fontSize: 14,
 };

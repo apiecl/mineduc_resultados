@@ -47,12 +47,14 @@ const ThemedTreeMap = ({ data, variant }) => {
       margin={{ top: 10, right: 10, bottom: 10, left: 10 }}
       colors={{ scheme: "reds" }}
       data={data}
-      labelSkipSize={200}
+      labelSkipSize={120}
       nodeOpacity={1}
       borderColor={"white"}
-      label={(e) => `${truncate(e.id, 30)} - ${e.formattedValue}`}
+      label={(e) => {
+        console.log(e);
+        return `${truncate(e.id, 30)} - ${e.formattedValue}`;
+      }}
       labelTextColor={"white"}
-      parentLabelSize={40}
       defs={fills}
       orientLabel={true}
       fill={[{ match: "*", id: variant === "red" ? "redFill" : "blueFill" }]}

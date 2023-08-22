@@ -1,6 +1,7 @@
 import { useReducer } from "react";
 import { useContent } from "./ContentContext";
 import CustomCirclePacking from "./charts/CustomCirclePacking";
+import jugando from "./assets/imgs/jugando.png";
 
 function Home() {
   const content = useContent();
@@ -9,7 +10,7 @@ function Home() {
     <div className="home">
       <div className="home-left accent-section is-resizeable">
         {content.textcontent?.site_intro}
-        <img src="./imgs/jugando.png" alt="Ilustración niñas jugando" />
+        <img src={jugando} alt="Ilustración niñas jugando" />
       </div>
       <div className="home-right">
         <div className="legend">

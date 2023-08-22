@@ -28,7 +28,8 @@ button {
 .desktop {
   .mainheader .content-wrapper {
     height: 100%;
-    background-image: url(./imgs/estudiante_1.png), url(./imgs/estudiante_2.png);
+    background-image: url(../assets/imgs/estudiante_1.png),
+      url(../assets/imgs/estudiante_2.png);
     background-repeat: no-repeat, no-repeat;
     background-position: right 10px, left 20px;
     background-size: 100px, 100px;
