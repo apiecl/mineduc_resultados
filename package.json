@@ -12,6 +12,7 @@
   "dependencies": {
     "@nivo/circle-packing": "^0.83.0",
     "@nivo/treemap": "^0.83.0",
+    "framer-motion": "^10.16.4",
     "prettier": "^2.8.8",
     "react": "^18.2.0",
     "react-device-detect": "^2.2.3",

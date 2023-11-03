@@ -59,3 +59,31 @@
     margin: 36px 0;
   }
 }
+
+.answerBlockWrapper {
+  display: flex;
+  gap: 12px;
+  margin: 48px 0;
+}
+
+.answerBlock {
+  padding: 12px;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 420px;
+  line-height: 2em;
+
+  p {
+    &:after {
+      content: " / "
+    }
+  }
+  &.femenino,
+  &.unisex {
+    background-color: var(--purple);
+  }
+  &.masculino {
+    background-color: var(--orange);
+  }
+}

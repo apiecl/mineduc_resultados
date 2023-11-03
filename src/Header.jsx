@@ -1,4 +1,4 @@
-import { useState, useEffect, useContext, useReducer } from "react";
+import { useState, useEffect } from "react";
 import { NavLink, Link, useLocation } from "react-router-dom";
 import { useContent } from "./ContentContext";
 import { useThemeDispatch, useTheme } from "./ThemeContext";
@@ -90,7 +90,7 @@ function Header() {
                     {content &&
                       open &&
                       content.textcontent.sections.map((section) => (
-                        <li>
+                        <li key={section.url}>
                           <NavLink
                             activeClassName="active"
                             title={section.title}
@@ -121,7 +121,7 @@ function Header() {
                   </li>
                   {content &&
                     content.textcontent.sections.map((section) => (
-                      <li>
+                      <li key={section.url}>
                         <NavLink
                           activeclassname="active"
                           title={section.title}

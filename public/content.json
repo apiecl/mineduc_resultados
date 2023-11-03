@@ -111,6 +111,145 @@
         "Esta pregunta es abierta, sin un tema específico. A continuación se presentan frases ejemplos para los objetos más frecuentes.",
         "Los niños de este estamento consideran que todos son iguales, y que se debe respetar los gustos de cada persona. Consideran positivo que sus opiniones sean importantes y que las puedas expresar"
       ]
+    },
+    "7mo-basico-a-ii-medio": {
+      "title": "7mo básico a II medio",
+      "intro": "A continuación se presentan los resultados para el grupo entre séptimo básico y segundo medio, que contiene 2.948 actas procesadas. A este grupo se le hicieron dos preguntas y luego una tercera referida a otros temas.",
+      "preguntas": [
+        {
+          "title": "¿Cómo tratamos a quien se ve, piensa o siente distinto a la mayoría?",
+          "content": "En los n-gramas de respuestas de este grupo, en ambos casos (femenino y masculino), se destaca que el trato a personas que son distintas a la mayoría debe ser con respeto (‘tratamos con respeto’, ‘merecemos respeto’) y en igualdad."
+        },
+        {
+          "title": "¿Cómo se imaginan la educación no sexista en tu escuela?",
+          "content": "Los n-gramas de los grupos femeninos y masculinos expresan el deseo de una educación no sexista en la escuela."
+        }
+      ],
+      "otros_temas": [
+        "Esta pregunta es abierta, sin un tema específico. A continuación se presentan frases ejemplos para los objetos más frecuentes.",
+        "Los estudiantes de este grupo consideran importante la igualdad y la educación no sexista y que se debe respetar al otro."
+      ]
+    },
+    "iii-iv-medio-y-nivel-laboral-educacion-especial": {
+      "title": "III, IV medio y nivel laboral educación especial",
+      "intro": "A continuación se presentan los resultados para el grupo tercero medio, cuarto medio y nivel laboral educación especial , que contiene 785 actas procesadas. A este grupo se le hicieron dos preguntas y luego una tercera referida a otros temas.",
+      "preguntas": [
+        {
+          "title": "¿Qué crees que debería ser importante para vivir tu sexualidad?",
+          "content": "En el grupo III, IV medio y nivel laboral educación especial, se expresan como temas importantes asuntos prácticos, como los métodos anticonceptivos y las enfermedades de transmisión sexual, tanto como la vida sexual personal y como tema a incluir en la educación en la escuela. Pero también adquiere relevancia la idea de pareja, y herramientas para la confianza, comunicación y decisiones de pareja."
+        },
+        {
+          "title": "¿Cómo se imaginan una educación en afectividad y sexualidad en tu escuela?",
+          "content": "Al igual que para la pregunta 1, los estudiantes del grupo femenino y masculino valoran la inclusión de temas prácticos, como los métodos anticonceptivos y enfermedades de transmisión sexual como temas importantes que incluir en la educación sexual que esperan recibir."
+        }
+      ],
+      "otros_temas": [
+        "Esta pregunta es abierta, sin un tema específico. A continuación se presentan frases ejemplos para los objetos más frecuentes.",
+        "Los estudiantes de este grupo consideran importante el consentimiento, y la comunicación en una pareja."
+      ]
+    },
+    "madres-padres-y-apoderados": {
+      "title": "Madres, padres y apoderados",
+      "intro": "A continuación se presentan los resultados para el grupo madres, padres y apoderados, que contiene 2.421 actas procesadas. A este grupo se le hicieron dos preguntas, luego una tercera referida a otros temas y una final a cierre.",
+      "preguntas": [
+        {
+          "title": "Elaboración de propuesta e implementación curricular",
+          "content": [
+            "Las preguntas que se utilizaron como elicitantes fueron: (1)¿Qué contenidos podrían abordarse en cada eje conceptual y con qué énfasis? Temáticas: Afectividad y relaciones interpersonales, perspectiva de género y no discriminación, autocuidado, salud, derechos sexuales y reproductivos (2) ¿Cómo se debieran enseñar estas temáticas en los establecimientos educativos?",
+            "De manera similar a grupo de profesores, fenómenos negativos como la violencia de género, y presumiblemente la vulneración de la integridad física, son los objetos más salientes de estos diálogos."
+          ]
+        },
+        {
+          "title": "Incorporación de familias, tutores, apoderados y apoderadas",
+          "content": ["Las preguntas utilizadas en esta sección fueron: (1)¿Cómo se podría fortalecer el vínculo y la comunicación entre el establecimiento y las familias para asegurar el cumplimiento de la educación en afectividad y sexualidad integral? y (2) ¿Qué mecanismos se podrían utilizar para llegar a las familias con formación en afectividad y sexualidad integral? (por ejemplo, cursos de educación dirigida; formación para el acompañamiento, entre otros).",
+          "En este caso se destaca la prevalencia del objeto reuniones de apoderados, como también una serie de objetos que apuntan a incrementar su participación y formación."
+          ]
+        }
+      ],
+      "otros_temas": [
+        "Esta pregunta es abierta, sin un tema específico. A continuación se presentan frases ejemplos para los objetos más frecuentes.",
+        "Los apoderados comentan la dificultad de hablar estos temas con sus hijos y reconocen los sesgos generacionales y de creencias que tienen, pero destacan la importancia de hablarlos y de recibir educación al respecto para poder hablar con sus hijos. También es importante que esta información que se entrega a los niños sea apropiada para ellos. Se refuerza la idea que ciertos temas deben ser tratados en la familia."
+      ],
+      "cierre": [
+        "Esta pregunta es abierta, sin un tema específico. A continuación se presentan frases ejemplos para los objetos más frecuentes.",
+        "Los comentarios reafirman la importancia asignada por los apoderados a la discusión de estos temas, como también la participación en una instancia participativa de un proyecto de ley. Se sigue reafirmando la idea de lo positivo que es que se involucre a las familias, y cómo deben visualizarse estos temas en edad temprana."
+      ]
+    },
+    "directivos-y-docentes": {
+      "title": "Directivos y docentes",
+      "intro": "A continuación se presentan los resultados para el grupo directivos y docentes, que contiene 1.414 actas procesadas. A este grupo se le hicieron dos preguntas, luego una tercera referida a otros temas y una final a cierre.",
+      "preguntas": [
+        {
+          "title": "Elaboración de propuesta e implementación curricular",
+          "content": [
+            "Las preguntas que se utilizaron como elicitantes fueron: (1)¿Qué contenidos podrían abordarse en cada eje conceptual y con qué énfasis? Temáticas: Afectividad y relaciones interpersonales; perspectiva de género y no discriminación; autocuidado; salud, derechos sexuales y reproductivos y (2) ¿Cómo se debieran enseñar estas temáticas en los establecimientos educativos?",
+            "En general, los conceptos de “violencia de género” e “integridad física”, que son los objetos más salientes, pudiesen estar entrelazados en nociones de violencia física con motivo de género. En general se aprecian aspectos que la agenda educativa debiese tematizar como fenómenos negativos, como la violencia, otros fenómenos positivos expresados como valores, como el caso de la igualdad, y luego elementos de una agenda psico-afectiva, como redes de apoyo, y psicosanitaria, como transmisión sexual."
+          ]
+        },
+        {
+          "title": "Formación inicial y desarrollo profesional",
+          "content": ["Las preguntas utilizadas en esta sección fueron: (1)¿Cómo debiesen ser abordados estos ejes conceptuales en la malla curricular de las y los estudiantes de las carreras de pedagogía? y (2) ¿En qué debiese consistir la formación continua para las y los trabajadores de la educación? ¿Cómo debiese implementarse? ¿Qué contenidos debiese abordar?",
+          "En este caso, el concepto de violencia pierde relevancia frente a otros objetivos más directamente vinculados a educación, como “Educación sexual”. También destaca la importancia del concepto de afectividad."
+          ]
+        }
+      ],
+      "otros_temas": [
+        "Esta pregunta es abierta, sin un tema específico. A continuación se presentan frases ejemplos para los objetos más frecuentes.",
+        "El grupo de docentes y directivos expresan opiniones positivas respecto a la jornada, considerando importante estas actividades y la inclusión de estos temas en la educación de los estudiantes. Manifiestan también preocupación respecto a la implementación en la educación de estos temas, respecto a recursos o apoyo desde el ministerio. Además, reflexionan en relación a la dificultad de enseñar estos temas a pesar de sus propios sesgos.",
+        "En ese sentido, se aprecia la necesidad de apoyo de las familias y de la institucionalidad para la implementación del proyecto. Adicionalmente se visibiliza que son temas que generan tensión en todo el espectro político de la opinión, y por tanto se debe evitar la discriminación de manera bidireccional. También se puntualiza sobre la dificultad de implementar esta agenda dada la brecha generacional."
+      ],
+      "cierre": [
+        "Esta pregunta es abierta, sin un tema específico. A continuación se presentan frases ejemplos para los objetos más frecuentes.",
+        "Estas respuestas repiten lo expresado en la pregunta anterior de otros temas, sobre todo la reflexión respecto a la implementación de este tipo de actividades. Sin embargo,el grupo comenta lo positivo de la jornada, una excelente actividad para compartir ideas. De las opiniones parece también desprenderse una opinión favorable a tener espacios de socialización como el realizado en este marco."
+      ]
+    },
+    "asistentes-de-la-educacion-profesionales-de-convivencia-escolar-y-pie": {
+      "title": "Asistentes de la educación, profesionales de convivencia escolar y PIE",
+      "intro": ["A continuación se presentan los resultados para el grupo asistentes de la educación, profesionales de convivencia escolar y PIE, que contiene 840 actas procesadas.",
+      "En este caso los grupos participantes podían elegir entre tres preguntas o temas a tratar y luego otra referida a otros temas y una final a cierre."],
+      "preguntas": [
+        {
+          "title": "Nube 1",
+          "content": 
+            "Además de la prevalencia del concepto de violencia, se destaca la importancia de la comunidad educativa."
+        },
+        {
+          "title": "Nube 2",
+          "content": "El énfasis de este grupo está puesto sobre la dimensión afectiva y vincular, por sobre temáticas de género o sexuales."
+        }
+      ],
+      "otros_temas": [
+        "Esta pregunta es abierta, sin un tema específico. A continuación se presentan frases ejemplos para los objetos más frecuentes.",
+        "El grupo de asistentes de la educación comenta temas prácticos de implementación de las actividades, como discutir en específico sobre redes sociales, orientaciones sexuales e involucramiento de los padres."
+      ],
+      "cierre": [
+        "Esta pregunta es abierta, sin un tema específico.",
+        "El grupo de asistentes de la educación destacan en sus respuestas la importancia de abordar estos temas y de incluir a los padres y a todos los estamentos de la comunidad escolar."
+      ]
+    },
+    "educadores-as-de-parvulos-tecnicos-as-en-parvulos-equipo-pedagogico-educacion-especial": {
+      "title": "Educadores/as de párvulos, técnicos/as en párvulos, equipo pedagógico educación especial",
+      "intro": ["A continuación se presentan los resultados para el grupo educadores/as de párvulos, técnicos/as en párvulos, equipo pedagógico educación especial, que contiene 1.051 actas procesadas.",
+      "En este caso los grupos participantes podían elegir entre tres preguntas o temas a tratar y luego otra referida a otros temas y una final a cierre."],
+      "preguntas": [
+        {
+          "title": "Nube 1",
+          "content": 
+            ""
+        },
+        {
+          "title": "Nube 2",
+          "content": ""
+        }
+      ],
+      "otros_temas": [
+        "Esta pregunta es abierta, sin un tema específico. A continuación se presentan frases ejemplos para los objetos más frecuentes.",
+        "Entre las respuestas del grupo de educadores de párvulos, aparecen opiniones respecto al que cumplen en tratar los temas, y no comparten el hecho que sea tratado en la escuela, sino que en la casa."
+      ],
+      "cierre": [
+        "Esta pregunta es abierta, sin un tema específico. A continuación se presentan frases ejemplos para los objetos más frecuentes.",
+        "Las respuestas reconocen la necesidad de mantener a los profesionales de la educación actualizados en la formación de estos temas, con capacitaciones continuas, con el fin de tener las herramientas necesarias para abordar los temas planteados."
+      ]
     }
   }
 }

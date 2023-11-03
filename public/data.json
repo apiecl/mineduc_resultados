@@ -98,82 +98,941 @@
       }
     ]
   },
-  "preguntas": [
-    {
-      "3ro-a-6to-basico": {
-        "femenino": [
-          ["más ordenadas", "91"],
-          ["pelo largo", "86"],
-          ["ocupan la cancha", "73"],
-          ["educación física", "72"],
-          ["jugar futbol", "68"],
-          ["jugar fútbol", "59"],
-          ["más tranquilas", "58"],
-          ["usar falda", "57"],
-          ["más rápido", "57"],
-          ["tener el pelo", "55"],
-          ["más grandes", "52"],
-          ["tiene ventajas", "49"],
-          ["usar la cancha", "48"],
-          ["más delicadas", "44"],
-          ["saltar la cuerda", "42"]
-        ],
-        "masculino": [
-          ["jugar fútbol", "200"],
-          ["más fuertes", "117"],
-          ["más rápido", "109"],
-          ["educación física", "71"],
-          ["más grandes", "56"],
-          ["más rápidos", "51"],
-          ["más fácil", "50"],
-          ["pelo largo", "46"],
-          ["tener el pelo", "45"],
-          ["pelo corto", "40"],
-          ["ocupar la cancha", "39"],
-          ["patio justo", "39"],
-          ["más inteligentes", "37"],
-          ["hacer amigos", "37"],
-          ["más bruscos", "36"]
-        ]
-      }
+  "modalidad_por_region": {
+    "metropolitana": {
+      "aulas_hospitalarias": 2,
+      "educacion_artistica": 6,
+      "educacion_de_personas_jovenes_y_adultas": 15,
+      "educacion_en_contextos_de_encierro": 2,
+      "educacion_especial": 64,
+      "educacion_rural": 30,
+      "educacion_tecnico_profesional": 67,
+      "establecimiento_humanista_cientifico": 348,
+      "otro": 379
     },
-    {
-      "3ro-a-6to-basico": {
+    "antofagasta": {
+      "aulas_hospitalarias": 1,
+      "educacion_artistica": 4,
+      "educacion_de_personas_jovenes_y_adultas": 1,
+      "educacion_en_contextos_de_encierro": 0,
+      "educacion_especial": 9,
+      "educacion_rural": 12,
+      "educacion_tecnico_profesional": 14,
+      "establecimiento_humanista_cientifico": 62,
+      "otro": 91
+    },
+    "arica_y_parinacota": {
+      "aulas_hospitalarias": 1,
+      "educacion_artistica": 1,
+      "educacion_de_personas_jovenes_y_adultas": 1,
+      "educacion_en_contextos_de_encierro": 1,
+      "educacion_especial": 22,
+      "educacion_rural": 25,
+      "educacion_tecnico_profesional": 11,
+      "establecimiento_humanista_cientifico": 31,
+      "otro": 43
+    },
+    "atacama": {
+      "aulas_hospitalarias": 1,
+      "educacion_artistica": 3,
+      "educacion_de_personas_jovenes_y_adultas": 3,
+      "educacion_en_contextos_de_encierro": 0,
+      "educacion_especial": 5,
+      "educacion_rural": 6,
+      "educacion_tecnico_profesional": 8,
+      "establecimiento_humanista_cientifico": 32,
+      "otro": 44
+    },
+    "aysen": {
+      "aulas_hospitalarias": 0,
+      "educacion_artistica": 0,
+      "educacion_de_personas_jovenes_y_adultas": 1,
+      "educacion_en_contextos_de_encierro": 0,
+      "educacion_especial": 2,
+      "educacion_rural": 9,
+      "educacion_tecnico_profesional": 1,
+      "establecimiento_humanista_cientifico": 5,
+      "otro": 27
+    },
+    "coquimbo": {
+      "aulas_hospitalarias": 2,
+      "educacion_artistica": 0,
+      "educacion_de_personas_jovenes_y_adultas": 1,
+      "educacion_en_contextos_de_encierro": 0,
+      "educacion_especial": 5,
+      "educacion_rural": 50,
+      "educacion_tecnico_profesional": 9,
+      "establecimiento_humanista_cientifico": 42,
+      "otro": 70
+    },
+    "araucania": {
+      "aulas_hospitalarias": 0,
+      "educacion_artistica": 3,
+      "educacion_de_personas_jovenes_y_adultas": 4,
+      "educacion_en_contextos_de_encierro": 1,
+      "educacion_especial": 2,
+      "educacion_rural": 43,
+      "educacion_tecnico_profesional": 14,
+      "establecimiento_humanista_cientifico": 50,
+      "otro": 95
+    },
+    "los_lagos": {
+      "aulas_hospitalarias": 3,
+      "educacion_artistica": 7,
+      "educacion_de_personas_jovenes_y_adultas": 5,
+      "educacion_en_contextos_de_encierro": 1,
+      "educacion_especial": 18,
+      "educacion_rural": 62,
+      "educacion_tecnico_profesional": 18,
+      "establecimiento_humanista_cientifico": 68,
+      "otro": 120
+    },
+    "de_los_rios": {
+      "aulas_hospitalarias": 0,
+      "educacion_artistica": 2,
+      "educacion_de_personas_jovenes_y_adultas": 1,
+      "educacion_en_contextos_de_encierro": 0,
+      "educacion_especial": 4,
+      "educacion_rural": 30,
+      "educacion_tecnico_profesional": 4,
+      "establecimiento_humanista_cientifico": 14,
+      "otro": 36
+    },
+    "magallanes": {
+      "aulas_hospitalarias": 0,
+      "educacion_artistica": 1,
+      "educacion_de_personas_jovenes_y_adultas": 0,
+      "educacion_en_contextos_de_encierro": 0,
+      "educacion_especial": 2,
+      "educacion_rural": 2,
+      "educacion_tecnico_profesional": 1,
+      "establecimiento_humanista_cientifico": 10,
+      "otro": 31
+    },
+    "o_higgins": {
+      "aulas_hospitalarias": 0,
+      "educacion_artistica": 1,
+      "educacion_de_personas_jovenes_y_adultas": 3,
+      "educacion_en_contextos_de_encierro": 2,
+      "educacion_especial": 11,
+      "educacion_rural": 61,
+      "educacion_tecnico_profesional": 23,
+      "establecimiento_humanista_cientifico": 89,
+      "otro": 103
+    },
+    "tarapaca": {
+      "aulas_hospitalarias": 0,
+      "educacion_artistica": 0,
+      "educacion_de_personas_jovenes_y_adultas": 0,
+      "educacion_en_contextos_de_encierro": 0,
+      "educacion_especial": 4,
+      "educacion_rural": 1,
+      "educacion_tecnico_profesional": 5,
+      "establecimiento_humanista_cientifico": 19,
+      "otro": 21
+    },
+    "valparaiso": {
+      "aulas_hospitalarias": 1,
+      "educacion_artistica": 1,
+      "educacion_de_personas_jovenes_y_adultas": 9,
+      "educacion_en_contextos_de_encierro": 1,
+      "educacion_especial": 15,
+      "educacion_rural": 54,
+      "educacion_tecnico_profesional": 26,
+      "establecimiento_humanista_cientifico": 184,
+      "otro": 162
+    },
+    "nuble": {
+      "aulas_hospitalarias": 0,
+      "educacion_artistica": 1,
+      "educacion_de_personas_jovenes_y_adultas": 2,
+      "educacion_en_contextos_de_encierro": 1,
+      "educacion_especial": 10,
+      "educacion_rural": 63,
+      "educacion_tecnico_profesional": 14,
+      "establecimiento_humanista_cientifico": 49,
+      "otro": 63
+    },
+    "biobio": {
+      "aulas_hospitalarias": 0,
+      "educacion_artistica": 4,
+      "educacion_de_personas_jovenes_y_adultas": 5,
+      "educacion_en_contextos_de_encierro": 1,
+      "educacion_especial": 8,
+      "educacion_rural": 21,
+      "educacion_tecnico_profesional": 21,
+      "establecimiento_humanista_cientifico": 98,
+      "otro": 153
+    },
+    "maule": {
+      "aulas_hospitalarias": 0,
+      "educacion_artistica": 4,
+      "educacion_de_personas_jovenes_y_adultas": 1,
+      "educacion_en_contextos_de_encierro": 1,
+      "educacion_especial": 8,
+      "educacion_rural": 97,
+      "educacion_tecnico_profesional": 30,
+      "establecimiento_humanista_cientifico": 71,
+      "otro": 215
+    }
+  },
+  "tipos_administracion_region": {
+    "metropolitana": {
+      "administracion_delegada": "16",
+      "jardin_infantil_administracion_delegada_municipales": "21",
+      "jardin_infantil_administracion_delegada_privados": "7",
+      "jardin_infantil_administracion_directa_integra": "128",
+      "jardin_infantil_administracion_directa_junji": "24",
+      "jardin_infantil_vtf_servicios_locales": "12",
+      "municipal": "331",
+      "otro": "5",
+      "particular_pagado": "15",
+      "particular_subvencionado": "299",
+      "servicio_local_de_educacion": "55"
+    },
+    "antofagasta": {
+      "administracion_delegada": "0",
+      "jardin_infantil_administracion_delegada_municipales": "0",
+      "jardin_infantil_administracion_delegada_privados": "0",
+      "jardin_infantil_administracion_directa_integra": "33",
+      "jardin_infantil_administracion_directa_junji": "23",
+      "jardin_infantil_vtf_servicios_locales": "0",
+      "municipal": "86",
+      "otro": "1",
+      "particular_pagado": "10",
+      "particular_subvencionado": "41",
+      "servicio_local_de_educacion": "0"
+    },
+    "arica_y_parinacota": {
+      "administracion_delegada": "0",
+      "jardin_infantil_administracion_delegada_municipales": "0",
+      "jardin_infantil_administracion_delegada_privados": "0",
+      "jardin_infantil_administracion_directa_integra": "10",
+      "jardin_infantil_administracion_directa_junji": "10",
+      "jardin_infantil_vtf_servicios_locales": "7",
+      "municipal": "1",
+      "otro": "1",
+      "particular_pagado": "2",
+      "particular_subvencionado": "57",
+      "servicio_local_de_educacion": "49"
+    },
+    "atacama": {
+      "administracion_delegada": "0",
+      "jardin_infantil_administracion_delegada_municipales": "0",
+      "jardin_infantil_administracion_delegada_privados": "0",
+      "jardin_infantil_administracion_directa_integra": "22",
+      "jardin_infantil_administracion_directa_junji": "11",
+      "jardin_infantil_vtf_servicios_locales": "2",
+      "municipal": "3",
+      "otro": "0",
+      "particular_pagado": "1",
+      "particular_subvencionado": "14",
+      "servicio_local_de_educacion": "49"
+    },
+    "aysen": {
+      "administracion_delegada": "0",
+      "jardin_infantil_administracion_delegada_municipales": "0",
+      "jardin_infantil_administracion_delegada_privados": "0",
+      "jardin_infantil_administracion_directa_integra": "22",
+      "jardin_infantil_administracion_directa_junji": "11",
+      "jardin_infantil_vtf_servicios_locales": "2",
+      "municipal": "3",
+      "otro": "0",
+      "particular_pagado": "1",
+      "particular_subvencionado": "14",
+      "servicio_local_de_educacion": "49"
+    },
+    "coquimbo": {
+      "administracion_delegada": "1",
+      "jardin_infantil_administracion_delegada_municipales": "1",
+      "jardin_infantil_administracion_delegada_privados": "0",
+      "jardin_infantil_administracion_directa_integra": "48",
+      "jardin_infantil_administracion_directa_junji": "8",
+      "jardin_infantil_vtf_servicios_locales": "3",
+      "municipal": "58",
+      "otro": "0",
+      "particular_pagado": "1",
+      "particular_subvencionado": "33",
+      "servicio_local_de_educacion": "26"
+    },
+    "araucania": {
+      "administracion_delegada": "2",
+      "jardin_infantil_administracion_delegada_municipales": "1",
+      "jardin_infantil_administracion_delegada_privados": "0",
+      "jardin_infantil_administracion_directa_integra": "52",
+      "jardin_infantil_administracion_directa_junji": "10",
+      "jardin_infantil_vtf_servicios_locales": "7",
+      "municipal": "82",
+      "otro": "1",
+      "particular_pagado": "0",
+      "particular_subvencionado": "46",
+      "servicio_local_de_educacion": "11"
+    },
+    "los_lagos": {
+      "administracion_delegada": "0",
+      "jardin_infantil_administracion_delegada_municipales": "6",
+      "jardin_infantil_administracion_delegada_privados": "1",
+      "jardin_infantil_administracion_directa_integra": "75",
+      "jardin_infantil_administracion_directa_junji": "7",
+      "jardin_infantil_vtf_servicios_locales": "7",
+      "municipal": "99",
+      "otro": "2",
+      "particular_pagado": "3",
+      "particular_subvencionado": "80",
+      "servicio_local_de_educacion": "22"
+    },
+    "de_los_rios": {
+      "administracion_delegada": "0",
+      "jardin_infantil_administracion_delegada_municipales": "1",
+      "jardin_infantil_administracion_delegada_privados": "0",
+      "jardin_infantil_administracion_directa_integra": "24",
+      "jardin_infantil_administracion_directa_junji": "8",
+      "jardin_infantil_vtf_servicios_locales": "0",
+      "municipal": "43",
+      "otro": "0",
+      "particular_pagado": "0",
+      "particular_subvencionado": "15",
+      "servicio_local_de_educacion": "0"
+    },
+    "magallanes": {
+      "administracion_delegada": "0",
+      "jardin_infantil_administracion_delegada_municipales": "1",
+      "jardin_infantil_administracion_delegada_privados": "0",
+      "jardin_infantil_administracion_directa_integra": "12",
+      "jardin_infantil_administracion_directa_junji": "13",
+      "jardin_infantil_vtf_servicios_locales": "0",
+      "municipal": "15",
+      "otro": "0",
+      "particular_pagado": "2",
+      "particular_subvencionado": "4",
+      "servicio_local_de_educacion": "0"
+    },
+    "o_higgins": {
+      "administracion_delegada": "5",
+      "jardin_infantil_administracion_delegada_municipales": "12",
+      "jardin_infantil_administracion_delegada_privados": "2",
+      "jardin_infantil_administracion_directa_integra": "28",
+      "jardin_infantil_administracion_directa_junji": "31",
+      "jardin_infantil_vtf_servicios_locales": "1",
+      "municipal": "146",
+      "otro": "0",
+      "particular_pagado": "1",
+      "particular_subvencionado": "54",
+      "servicio_local_de_educacion": "13"
+    },
+    "tarapaca": {
+      "administracion_delegada": "2",
+      "jardin_infantil_administracion_delegada_municipales": "0",
+      "jardin_infantil_administracion_delegada_privados": "0",
+      "jardin_infantil_administracion_directa_integra": "12",
+      "jardin_infantil_administracion_directa_junji": "6",
+      "jardin_infantil_vtf_servicios_locales": "0",
+      "municipal": "13",
+      "otro": "0",
+      "particular_pagado": "2",
+      "particular_subvencionado": "15",
+      "servicio_local_de_educacion": "0"
+    },
+    "valparaiso": {
+      "administracion_delegada": "5",
+      "jardin_infantil_administracion_delegada_municipales": "5",
+      "jardin_infantil_administracion_delegada_privados": "1",
+      "jardin_infantil_administracion_directa_integra": "93",
+      "jardin_infantil_administracion_directa_junji": "10",
+      "jardin_infantil_vtf_servicios_locales": "9",
+      "municipal": "174",
+      "otro": "5",
+      "particular_pagado": "3",
+      "particular_subvencionado": "121",
+      "servicio_local_de_educacion": "27"
+    },
+    "nuble": {
+      "administracion_delegada": "2",
+      "jardin_infantil_administracion_delegada_municipales": "4",
+      "jardin_infantil_administracion_delegada_privados": "3",
+      "jardin_infantil_administracion_directa_integra": "40",
+      "jardin_infantil_administracion_directa_junji": "1",
+      "jardin_infantil_vtf_servicios_locales": "0",
+      "municipal": "124",
+      "otro": "0",
+      "particular_pagado": "0",
+      "particular_subvencionado": "29",
+      "servicio_local_de_educacion": "0"
+    },
+    "biobio": {
+      "administracion_delegada": "3",
+      "jardin_infantil_administracion_delegada_municipales": "1",
+      "jardin_infantil_administracion_delegada_privados": "3",
+      "jardin_infantil_administracion_directa_integra": "76",
+      "jardin_infantil_administracion_directa_junji": "54",
+      "jardin_infantil_vtf_servicios_locales": "6",
+      "municipal": "82",
+      "otro": "2",
+      "particular_pagado": "2",
+      "particular_subvencionado": "56",
+      "servicio_local_de_educacion": "26"
+    },
+    "maule": {
+      "administracion_delegada": "2",
+      "jardin_infantil_administracion_delegada_municipales": "37",
+      "jardin_infantil_administracion_delegada_privados": "6",
+      "jardin_infantil_administracion_directa_integra": "51",
+      "jardin_infantil_administracion_directa_junji": "97",
+      "jardin_infantil_vtf_servicios_locales": "2",
+      "municipal": "190",
+      "otro": "1",
+      "particular_pagado": "1",
+      "particular_subvencionado": "40",
+      "servicio_local_de_educacion": "0"
+    }
+  },
+  "modalidad_ensenanza": {
+    "name": "Modalidad de Enseñanza",
+    "children": [
+      {
+        "name": "Otro",
+        "loc": 1672,
+        "color": "#ff0000"
+      },
+      {
+        "name": "Establecimiento humanista científico",
+        "loc": 1182,
+        "color": "#ff0000"
+      },
+      {
+        "name": "Educación rural",
+        "loc": 571,
+        "color": "#ff0000"
+      },
+      {
+        "name": "Educación técnico profesional",
+        "loc": 269,
+        "color": "#ff0000"
+      },
+      {
+        "name": "Educación especial",
+        "loc": 192,
+        "color": "#ff0000"
+      },
+      {
+        "name": "Educación de personas jóvenes y adultas",
+        "loc": 55,
+        "color": "#ff0000"
+      },
+      {
+        "name": "Educación artística",
+        "loc": 39,
+        "color": "#ff0000"
+      },
+      {
+        "name": "Educación en contextos de encierro",
+        "loc": 11,
+        "color": "#ff0000"
+      },
+      {
+        "name": "Aulas hospitalarias",
+        "loc": 11,
+        "color": "#ff0000"
+      }
+    ]
+  },
+  "preguntas": {
+    "3ro-a-6to-basico": [
+      {
         "femenino": [
-          ["más ordenadas", "91"],
-          ["pelo largo", "86"],
-          ["ocupan la cancha", "73"],
-          ["educación física", "72"],
-          ["jugar futbol", "68"],
-          ["jugar fútbol", "59"],
-          ["más tranquilas", "58"],
-          ["usar falda", "57"],
-          ["más rápido", "57"],
-          ["tener el pelo", "55"],
-          ["más grandes", "52"],
-          ["tiene ventajas", "49"],
-          ["usar la cancha", "48"],
-          ["más delicadas", "44"],
-          ["saltar la cuerda", "42"]
+          ["más ordenadas", 91],
+          ["pelo largo", 86],
+          ["ocupan la cancha", 73],
+          ["educación física", 72],
+          ["jugar futbol", 68],
+          ["jugar fútbol", 59],
+          ["más tranquilas", 58],
+          ["usar falda", 57],
+          ["más rápido", 57],
+          ["tener el pelo", 55],
+          ["más grandes", 52],
+          ["tiene ventajas", 49],
+          ["usar la cancha", 48],
+          ["más delicadas", 44],
+          ["saltar la cuerda", 42]
         ],
         "masculino": [
-          ["jugar fútbol", "200"],
-          ["más fuertes", "117"],
-          ["más rápido", "109"],
-          ["educación física", "71"],
-          ["más grandes", "56"],
-          ["más rápidos", "51"],
-          ["más fácil", "50"],
-          ["pelo largo", "46"],
-          ["tener el pelo", "45"],
-          ["pelo corto", "40"],
-          ["ocupar la cancha", "39"],
-          ["patio justo", "39"],
-          ["más inteligentes", "37"],
-          ["hacer amigos", "37"],
-          ["más bruscos", "36"]
+          ["jugar fútbol", 200],
+          ["más fuertes", 117],
+          ["más rápido", 109],
+          ["educación física", 71],
+          ["más grandes", 56],
+          ["más rápidos", 51],
+          ["más fácil", 50],
+          ["pelo largo", 46],
+          ["tener el pelo", 45],
+          ["pelo corto", 40],
+          ["ocupar la cancha", 39],
+          ["patio justo", 39],
+          ["más inteligentes", 37],
+          ["hacer amigos", 37],
+          ["más bruscos", 36]
+        ]
+      },
+      {
+        "femenino": [
+          ["traten con respeto", 261],
+          ["igual manera", 86],
+          ["más grandes", 58],
+          ["tratara a niños", 57],
+          ["buen trato", 51],
+          ["jugar futbol", 43],
+          ["igual forma", 42],
+          ["respeto e igualdad", 40],
+          ["igualdad de género", 38],
+          ["respeto y cariño", 37],
+          ["respeto cariño", 36],
+          ["niños grandes", 34],
+          ["cariño y respeto", 33],
+          ["color de piel", 32],
+          ["traten con cariño", 32]
+        ],
+        "masculino": [
+          ["traten con respeto", 129],
+          ["más grandes", 76],
+          ["buen trato", 62],
+          ["tratara a niños", 59],
+          ["igual manera", 52],
+          ["trataran con respeto", 41],
+          ["niños o niñas", 36],
+          ["educación física", 36],
+          ["igual forma", 35],
+          ["respeto y cariño", 34],
+          ["traten con cariño", 30],
+          ["más fuertes", 29],
+          ["igualdad de género", 29],
+          ["más pequeños", 28],
+          ["pelo largo", 27]
         ]
       }
-    }
-  ]
+    ],
+    "nivel-medio-mayor-nivel-transicion-primero-y-segundo-basico": [
+      {
+        "femenino": [
+          ["jugar con muñecas", 457],
+          ["casa de muñecas", 118],
+          ["andar en bicicleta", 102],
+          ["gustan las muñecas", 99],
+          ["cama elástica", 92],
+          ["juegos de mesa", 86],
+          ["muñecas peluches", 77],
+          ["duendes mágicos", 75],
+          ["saltar la cuerda", 69],
+          ["jugar con autos", 68],
+          ["jugar con pelotas", 63],
+          ["jugar con peluches", 62],
+          ["muñecas pelotas", 50],
+          ["juegos inflables", 46]
+        ],
+        "masculino": [
+          ["jugar con autos", 211],
+          ["andar en bicicleta", 149],
+          ["control remoto", 117],
+          ["jugar futbol", 150],
+          ["jugar con pelotas", 75],
+          ["cama elástica", 71],
+          ["jugar con muñecas", 63],
+          ["autos de carrera", 51],
+          ["pelotas autos", 51],
+          ["jugar con juguetes", 48],
+          ["pistolas de agua", 47],
+          ["juegos de mesa", 47],
+          ["gustan los autos", 45],
+          ["jugar con dinosaurios", 44],
+          ["auto a control", 44]
+        ]
+      },
+      {
+        "femenino": [
+          ["juguetes distintos", 443],
+          ["jugar con muñecas", 393],
+          ["tienen género", 331],
+          ["juguetes para niños", 279],
+          ["juegan con muñecas", 240],
+          ["juguetes de niños", 219],
+          ["juguetes de niñas", 181],
+          ["jugar con juguetes", 169],
+          ["jugar con autos", 167],
+          ["juguetes para niñas", 108],
+          ["juguetes diferentes", 95],
+          ["juegan con autos", 94],
+          ["jugar con pelotas", 93],
+          ["niñas con muñecas", 80],
+          ["compartir los juguetes", 74]
+        ],
+        "masculino": [
+          ["jugar con muñecas",	381],
+          ["juguetes distintos",	366],
+          ["juguetes de niños",	282],
+          ["juguetes para niños",	278],
+          ["juegan con muñecas",	257],
+          ["tienen género",	199],
+          ["juguetes de niñas",	191],
+          ["jugar con juguetes",	147],
+          ["jugar con autos",	138],
+          ["juguetes para niñas",	102],
+          ["cosas de niñas",	98],
+          ["hombres y mujeres",	96],
+          ["juegan con autos",	95],
+          ["gustan las muñecas",	91],
+          ["juguetes diferentes",	90]
+        ]
+      }
+    ],
+    "7mo-basico-a-ii-medio": [
+      {
+        "femenino": [
+          ["igual manera",	148],
+          ["orientación sexual",	108],
+          ["persona normal",	105],
+          ["tratamos con respeto",	70],
+          ["seres humanos",	70],
+          ["igual forma",	56],
+          ["personas diferentes",	54],
+          ["tratar con respeto",	44],
+          ["persona igual",	44],
+          ["trato con respeto",	41],
+          ["buena manera",	40],
+          ["buen trato",	39],
+          ["punto de vista",	36],
+          ["distintas a",	36],
+          ["color de piel",	36]
+        ],
+        "masculino": [
+          ["persona normal",	103],
+          ["igual manera",	92],
+          ["orientación sexual",	75],
+          ["tratamos con respeto",	73],
+          ["igual forma",	61],
+          ["seres humanos",	48],
+          ["buena manera",	43],
+          ["buen trato",	38],
+          ["hacer diferencias",	38],
+          ["punto de vista",	37],
+          ["personas diferentes",	36],
+          ["tratar con respeto",	36],
+          ["personas igual",	32],
+          ["persona igual",	31],
+          ["color de piel",	29]
+        ]
+      },
+      {
+        "femenino": [
+          ["orientación sexual",	133],
+          ["niños y niñas",	99],
+          ["educación física",	90],
+          ["igualdad de género",	76],
+          ["mucho mejor",	67],
+          ["mujeres y hombres",	67],
+          ["baños mixtos",	67],
+          ["pelo largo",	65],
+          ["estereotipos de género",	61],
+          ["educación sexual",	60],
+          ["escuela no sexista",	52],
+          ["diferencias entre hombres",	51],
+          ["educación sexista",	45],
+          ["usar falda",	39],
+          ["filas mixtas",	35]
+        ],
+        "masculino": [
+          ["orientación sexual",	115],
+          ["educación física",	85],
+          ["niños y niñas",	80],
+          ["baños mixtos",	59],
+          ["igualdad de género",	53],
+          ["pelo largo",	50],
+          ["hombre y mujeres",	43],
+          ["mujeres y hombres",	43],
+          ["escuela no sexista",	42],
+          ["mucho mejor",	37],
+          ["educación sexual",	34],
+          ["diferencias entre hombres",	32],
+          ["igual manera",	30],
+          ["corte de pelo",	28],
+          ["muy buena",	23]
+        ]
+      }
+    ],
+    "iii-iv-medio-y-nivel-laboral-educacion-especial": [
+      {
+        "femenino": [
+          ["educación sexual",	75],
+          ["métodos anticonceptivos",	64],
+          ["amor propio",	33],
+          ["más importante",	30],
+          ["tener relaciones",	26],
+          ["vivir la sexualidad",	25],
+          ["buena educación",	24],
+          ["vida sexual",	23],
+          ["buena comunicación",	22],
+          ["enfermedades de transmisión",	22],
+          ["muy importante",	21],
+          ["tener confianza",	19],
+          ["responsabilidad afectiva",	18],
+          ["poner límites",	17],
+          ["vivir tu sexualidad",	16]
+        ],
+        "masculino": [
+          ["educación sexual",	64],
+          ["métodos anticonceptivos",	29],
+          ["relaciones sexuales",	23],
+          ["más importante",	22],
+          ["tener relaciones",	20],
+          ["vida sexual",	19],
+          ["tomar decisiones",	17],
+          ["orientación sexual",	17],
+          ["buena educación",	16],
+          ["tener conocimiento",	16],
+          ["vivir tu sexualidad",	14],
+          ["transmisión sexual",	13],
+          ["tener confianza",	13],
+          ["buena comunicación",	12],
+          ["respeto mutuo",	12]
+        ]
+      },
+      {
+        "femenino": [
+          ["métodos anticonceptivos",	61],
+          ["orientación sexual",	34],
+          ["temprana edad",	29],
+          ["enfermedades de transmisión",	27],
+          ["transmisión sexual",	27],
+          ["educación en afectividad",	25],
+          ["tener relaciones",	24],
+          ["vida sexual",	22],
+          ["hablar de sexualidad",	22],
+          ["relaciones sexuales",	21],
+          ["hombres y mujeres",	15],
+          ["sexualidad y afectividad",	14],
+          ["diversidad sexual",	14],
+          ["uso de preservativos",	14],
+          ["identidad sexual",	12]
+        ],
+        "masculino": [
+          ["métodos anticonceptivos",	34],
+          ["transmisión sexual",	21],
+          ["orientación sexual",	18],
+          ["educación en afectividad",	18],
+          ["enfermedades de transmisión",	17],
+          ["relaciones sexuales",	17],
+          ["clase especial",	12],
+          ["hacer una clase",	12],
+          ["sexualidad y afectividad",	12],
+          ["través de charlas",	11],
+          ["hombres y mujeres",	10],
+          ["responsabilidad afectiva",	10],
+          ["imaginan una educación",	10],
+          ["tener relaciones",	9],
+          ["clases de sexualidad",	9]
+        ]
+      }
+    ],
+    "directivos-y-docentes": [
+      {
+        "unisex": [
+          ["violencia de género",	367],
+          ["integridad física",	269],
+          ["igualdad de género",	226],
+          ["diversidad sexual",	209],
+          ["educación sexual",	189],
+          ["relaciones personales",	185],
+          ["comunidad educativa",	179],
+          ["tipo de violencia",	177],
+          ["estereotipos de género",	162],
+          ["embarazo adolescente",	159],
+          ["vida sexual",	158],
+          ["transmisión sexual",	155],
+          ["no sexista",	138],
+          ["ciclo de vida",	135],
+          ["manera transversal",	134]
+        ]
+      },
+      {
+        "unisex": [
+          ["educación sexual", 226],
+          ["afectividad y sexualidad",	210],
+          ["no sexista",	179],
+          ["sexualidad integral",	134],
+          ["educación no sexista",	121],
+          ["perspectiva de género",	114],
+          ["comunidad educativa",	109],
+          ["derechos sexuales",	103],
+          ["diversidad sexual",	86],
+          ["desarrollo profesional",	77],
+          ["identidad de género",	67],
+          ["sexualidad y afectividad",	64],
+          ["manera transversal",	59],
+          ["relaciones interpersonales",	57],
+          ["través de talleres",	39]
+        ]
+      }
+    ],
+    "asistentes-de-la-educacion-profesionales-de-convivencia-escolar-y-pie": [
+      {
+        "unisex": [
+          ["violencia de género",	113],
+          ["comunidad educativa",	110],
+          ["diversidad sexual",	97],
+          ["afectividad y relaciones",	90],
+          ["igualdad de género",	89],
+          ["integridad física",	83],
+          ["relaciones interpersonales",	76],
+          ["relaciones personales",	75],
+          ["carreras de pedagogía",	73],
+          ["transmisión sexual",	73],
+          ["sexualidad integral",	73],
+          ["relación a",	73],
+          ["niños y niñas",	67],
+          ["identidad de género",	62],
+          ["derechos sexuales",	58]
+        ]
+      },
+      {
+        "unisex": [
+          ["educación en afectividad",	169],
+          ["fortalecer el vínculo",	161],
+          ["asegurar el cumplimiento",	138],
+          ["formación en afectividad",	136],
+          ["familias con formación",	128],
+          ["educación sexual",	112],
+          ["comunidad educativa",	94],
+          ["padres y apoderados",	89],
+          ["reuniones de apoderados",	88],
+          ["educación dirigida",	84],
+          ["cursos de educación",	83],
+          ["dirigida formación",	79],
+          ["educación dirigida formación",	79],
+          ["formación continua",	78],
+          ["derechos sexuales",	52]
+        ]
+      }
+    ],
+    "educadores-as-de-parvulos-tecnicos-as-en-parvulos-equipo-pedagogico-educacion-especial": [
+      {
+        "unisex": [
+          ["igualdad de género",	151],
+          ["no sexista",	106],
+          ["integridad física",	100],
+          ["violencia de género",	99],
+          ["relaciones personales",	95],
+          ["educación parvularia",	90],
+          ["educación no sexista",	82],
+          ["tipo de violencia",	74],
+          ["comunidad educativa",	74],
+          ["expresión de género",	74],
+          ["estereotipos de género",	73],
+          ["sexualidad integral",	71],
+          ["diversidad sexual",	71],
+          ["través de talleres",	63],
+          ["equipo educativo",	63]
+        ]
+      },
+      {
+        "unisex": [
+          ["sexualidad integral",	296],
+          ["educación en afectividad",	222],
+          ["fortalecer el vínculo",	220],
+          ["formación en afectividad",	177],
+          ["asegurar el cumplimiento",	173],
+          ["familias con formación",	160],
+          ["cursos de educación",	100],
+          ["educación dirigida",	99],
+          ["ejes conceptuales",	97],
+          ["dirigida formación",	95],
+          ["educación dirigida formación",	94],
+          ["educación sexual",	93],
+          ["través de talleres",	69],
+          ["perspectiva de género",	69],
+          ["no sexista",	68]
+        ]
+      }
+    ],
+    "madres-padres-y-apoderados": [
+      {
+        "unisex": [
+          ["violencia de género",	348],
+          ["integridad física",	325],
+          ["igualdad de género",	290],
+          ["educación sexual",	257],
+          ["diversidad sexual",	222],
+          ["relaciones personales",	201],
+          ["tipo de violencia",	200],
+          ["vida sexual",	182],
+          ["afectividad y sexualidad",	178],
+          ["embarazo adolescente",	176],
+          ["transmisión sexual",	173],
+          ["ciclo de vida",	155],
+          ["relaciones sexuales",	155],
+          ["través de talleres",	144],
+          ["estereotipos de género",	121]
+        ]
+      },
+      {
+        "unisex": [
+          ["reuniones de apoderados",	245],
+          ["talleres para padres",	194],
+          ["educación sexual",	167],
+          ["cursos de educación",	158],
+          ["educación dirigida",	156],
+          ["padres e hijos",	151],
+          ["familias con formación",	143],
+          ["padres madres",	142],
+          ["realizar talleres",	140],
+          ["través de talleres",	127],
+          ["redes sociales",	121],
+          ["no sexista",	97],
+          ["reunión de apoderados",	92],
+          ["educación dirigida formación",	87],
+          ["comunidad educativa",	86]
+        ]
+      }
+    ]
+  },
+  "regiones": {
+    "arica_y_parinacota": "Región de arica y Parinacota",
+    "tarapaca": "Región de Tarapacá",
+    "antofagasta": "Región de Antofagasta",
+    "atacama": "Región de Atacama",
+    "coquimbo": "Región de Coquimbo",
+    "valparaiso": "Región de Valparaíso",
+    "metropolitana": "Región Metropolitana de Santiago",
+    "o_higgins": "Región del Libertador General Bernardo O'Higgins",
+    "maule": "Región del Maule",
+    "nuble": "Región de Ñuble",
+    "biobio": "Región del Biobío",
+    "araucania": "Región de la Araucanía",
+    "de_los_rios": "Región de los Ríos",
+    "los_lagos": "Región de los Lagos",
+    "aysen": "Región de Aysén del General Carlos Ibáñez del Campo",
+    "magallanes": "Región de Magallanes y de la Antártica Chilena"
+  },
+  "tipos_administracion_labels": {
+    "administracion_delegada": "Administración delegada",
+    "jardin_infantil_administracion_delegada_municipales": "Jardín Infantil administración delegada o transferencia de fondos (VTF) Municipales",
+    "jardin_infantil_administracion_delegada_privados": "Jardín Infantil administración delegada o transferencia de fondos (VTF) privados",
+    "jardin_infantil_administracion_directa_integra": "Jardín Infantil de administración directa Integra",
+    "jardin_infantil_administracion_directa_junji": "Jardín Infantil de administración directa JUNJI",
+    "jardin_infantil_vtf_servicios_locales": "Jardín Infantil vía transferencia de fondo (VTF) de Servicios Locales de Educación",
+    "municipal": "Municipal",
+    "otro": "Otro",
+    "particular_pagado": "Particular Pagado",
+    "particular_subvencionado": "Particular Subvencionado",
+    "servicio_local_de_educacion": "Servicio Local de Educación"
+  },
+  "modalidad_labels": {
+    "aulas_hospitalarias": "Aulas hospitalarias",
+    "educacion_artistica": "Educación artística",
+    "educacion_de_personas_jovenes_y_adultas": "Educación de personas jóvenes y adultas",
+    "educacion_en_contextos_de_encierro": "Educación en contextos de encierro",
+    "educacion_especial": "Educación especial",
+    "educacion_rural": "Educación rural",
+    "educacion_tecnico_profesional": "Educación técnico profesional",
+    "establecimiento_humanista_cientifico": "Establecimiento humanista científico",
+    "otro": "Otro"
+  }
 }

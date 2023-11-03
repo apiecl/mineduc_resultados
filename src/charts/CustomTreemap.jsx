@@ -4,9 +4,9 @@ import { useState, useEffect } from "react";
 import { linearGradientDef } from "@nivo/core";
 import { ResponsiveTreeMap } from "@nivo/treemap";
 
-function CustomTreemap({ variant, data }) {
+function CustomTreemap({ variant, data, height }) {
   return (
-    <div style={{ height: "600px" }}>
+    <div style={{ height: `${height}px` }}>
       <ThemedTreeMap data={data} variant={variant} />
     </div>
   );
@@ -51,7 +51,6 @@ const ThemedTreeMap = ({ data, variant }) => {
       nodeOpacity={1}
       borderColor={"white"}
       label={(e) => {
-        console.log(e);
         return `${truncate(e.id, 30)} - ${e.formattedValue}`;
       }}
       labelTextColor={"white"}
